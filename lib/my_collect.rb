@@ -8,4 +8,3 @@ end
 my_collect(array){|language|
  language.upcase}
 end
-
