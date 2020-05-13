@@ -9,4 +9,3 @@ end
 end
  my_collect(array) do |language|
   language.upcase
-
