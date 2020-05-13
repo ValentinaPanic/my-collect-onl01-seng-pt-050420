@@ -5,6 +5,7 @@ def my_collect(array)
    yield(array[i])
     i+=1
 end
-my_collect(array){|language|
- language.upcase}
+
 end
+#my_collect(array){|language|
+ #language.upcase}
