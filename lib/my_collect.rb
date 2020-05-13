@@ -1,12 +1,12 @@
 def my_collect(array)
-  collection = []
+  #collection = []
   i = 0
   while i < array.length
-    collection << yield(array[1])
+   yield(array[1])
     i+=1
 end
 collection
 end
-my_collect(collection) do |language|
+my_collect(array) do |language|
   language.upcase
 end
